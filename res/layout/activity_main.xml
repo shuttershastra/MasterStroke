@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tab_navigation_content" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openTestimonials" />
+    
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openPictures" />
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openMasterSutra" />
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openMasterJourney" />
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openVideos" />
+    <ImageView
+        android:src="@drawable/ic_compose_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/testimonial_logo"
+        android:onClick="openEvents" />
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.speakingtree.masterstroke"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="com.speakingtree.masterstroke.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.CustomizeActivity"
+            android:label="@string/customize"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.SignInActivity"
+            android:label="@string/interact"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.ConnectActivity"
+            android:label="@string/title_activity_connect"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.TestimonialsActivity"
+            android:label="@string/title_activity_testimonials"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.PhotosActivity"
+            android:label="@string/title_activity_pictures"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.VideosActivity"
+            android:label="@string/title_activity_videos"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.EventsActivity"
+            android:label="@string/title_activity_events"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.MasterSutraActivity"
+            android:label="@string/title_activity_master_sutra"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.MasterJourneyActivity"
+            android:label="@string/title_activity_master_journey"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.MasterStrokeActivity"
+            android:label="@string/title_activity_master_stroke"
+            android:parentActivityName="com.speakingtree.masterstroke.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.VideoActivity"
+            android:label="@string/title_activity_video"
+            android:parentActivityName="com.speakingtree.masterstroke.VideosActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.VideosActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.PhotoActivity"
+            android:label="@string/title_activity_photo"
+            android:parentActivityName="com.speakingtree.masterstroke.PhotosActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.PicturesActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.InteractActivity"
+            android:label="@string/title_activity_interact" >
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.SpiritualMilestonesActivity"
+            android:label="@string/title_activity_spiritual_milestones"
+            android:parentActivityName="com.speakingtree.masterstroke.InteractActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.InteractActivity" />
+        </activity>
+        <activity
+            android:name="com.speakingtree.masterstroke.PeacePointsActivity"
+            android:label="@string/title_activity_peace_points"
+            android:parentActivityName="com.speakingtree.masterstroke.InteractActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.speakingtree.masterstroke.InteractActivity" />
+        </activity>
+    </application>
+
+</manifest>
